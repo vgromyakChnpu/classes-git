@@ -7,3 +7,4 @@ git <command> --help
 man git-<command>
 git init
 git clone <repo_link>
+git status
