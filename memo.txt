@@ -5,3 +5,5 @@ git config user.name
 git help <command>
 git <command> --help
 man git-<command>
+git init
+git clone <repo_link>
