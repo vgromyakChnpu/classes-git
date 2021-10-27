@@ -2,14 +2,19 @@ git config --global user.name "John Doe"
 git config --system user.email "jdoe@example.com"
 git config --list
 git config user.name
+
 git help <command>
 git <command> --help
 man git-<command>
+
 git init
 git clone <repo_link>
+
 git status
 git status -s, git status --short
+
 git add <files>
+
 git tag
 git tag -l <pattern>
 git tag -a <tagName> -m <comment>
