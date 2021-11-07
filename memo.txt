@@ -25,3 +25,15 @@ git push origin <tagName>
 git tag -d <tagName>
 git push origin :<tagName>
 git push origin --tags
+
+git log - ≥стор≥€ у формат≥ за замовчуванн€м
+git log -p|--patch - разом ≥з зм≥нами
+git log <n> - обмеженн€ к≥лькост≥ елемент≥в
+git log --stat - статистика зм≥н
+git log --pretty=full|fuller|oneline|format:Ф<format>Ф - зм≥на формату виводу
+git log --oneline - статистика зм≥н в короткому формат≥
+git log --graph - ≥стор≥€ у вигл€д≥ ASCII-графу
+git log --grep - пошук по commit message
+git log --since/--until - пошук по дат≥
+git log -S - пошук по вм≥сту зм≥н
+git log -- <path/to/file> - ком≥ти €к≥ модиф≥кували файл
